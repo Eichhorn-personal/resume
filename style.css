@@ -1,8 +1,20 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 70%;
+    margin-left: 15%;
+}
+
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #2f5496;
     text-align: center;
     margin-bottom: 0px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border: 2px solid #2f5496;
 }
 
 #id-contact-info {
@@ -11,11 +23,47 @@ h1 {
     margin-top: 5px;
 }
 
-h2 {
+#skills {
     text-align: center;
-    border: 2px solid #2f5496;
+}
+
+.gray-block {
+    background-color: lightgray;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.job-banner {
+    border: 1px solid black;
+        border-left: 0px;
+        border-right: 0px;
+
+}
+
+.job-name {
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.job-tagline {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.job-details {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 hr {
-    border: 1px solid black;
+    margin-top: 20px;
+    border: 1.75px solid black;
+}
+
+li {
+    text-indent: -22px;
+    margin-left: 35px;
+    margin-bottom: 5px;  
 }
